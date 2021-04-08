@@ -30,9 +30,6 @@ while($row= mysqli_fetch_assoc($result)){
 
  
 
-
-
-
 ?>
 
 
@@ -83,6 +80,7 @@ while($row= mysqli_fetch_assoc($result)){
 <th>biografi</th>
 </tr>
 
+
 </thead>
 <tbody>
 <?php foreach($rows as $r) :?>
@@ -93,6 +91,9 @@ while($row= mysqli_fetch_assoc($result)){
 <td> <?php echo $r['biografi'] ?></td>
 
 </tr>
+</th>
+</tr>
+
 <?php endforeach?>
 </tbody>
 
